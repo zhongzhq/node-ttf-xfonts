@@ -1,4 +1,4 @@
-FROM index.alauda.cn/library/node:latest
+FROM index.docker.io/library/node:latest
 
 RUN rm -v /etc/apt/sources.list
 RUN echo "deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse" >> /etc/apt/sources.list
